@@ -4,9 +4,10 @@ body {
 
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    list-style-type: none;
     background-color: rgb(255, 181, 251);
+    padding: 16px;
     height: 10vh;
 }
 
@@ -20,8 +21,4 @@ nav{
 a{
     color: #585858;
     text-decoration: none;
-}
-
-.menu img {
-    width: 20px;
 }
