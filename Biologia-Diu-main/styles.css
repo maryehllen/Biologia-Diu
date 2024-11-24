@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf3f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex; 
+    align-items: center; 
+    background-color: #f7c8d0; 
+    color: #fff; 
+    padding: 5px 20px; 
+    text-align: center;
+}
+
+.logo { width: 50px; 
+    height: auto; 
+    margin-right: 20px
+}
+
+nav { 
+    margin-top: -35px;
+}
+
+nav ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content:flex-end;
+    background-color: #f7c8d0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4 all ease;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #d41b5c; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #df618d;
+    transition: 0.4 all ease;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+footer {
+    background-color: #f7c8d0;
+    color: #ac496a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.icon-bg, .info-bg {
+    background-color: #df618d;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-bg:hover, .info-bg:hover {
+    background-color: #ad2957;
+    transform: scale(1.1);
+}
+
+.icon-bg img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #eb91c2;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #df618d; 
+}
+
+.icon-bg:hover {
+    background-color: #df618d;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.faq-item {
+    background-color: #fff;
+    border: 1px solid #df618d;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+    background-color: #f7c8d0;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+}
