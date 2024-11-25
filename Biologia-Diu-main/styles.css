@@ -4,6 +4,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+   font-size: 18px
 }
 
 header {
@@ -15,7 +16,8 @@ header {
     text-align: center;
 }
 
-.logo { width: 50px; 
+.logo { 
+    width: 100px; 
     height: auto; 
     margin-right: 20px
 }
@@ -48,10 +50,10 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none; 
-    color: #d41b5c; 
+    color: #883b56; 
     padding: 10px 15px; 
     border-radius: 5px; 
-    transition: background-color 0.3s ease;
+    transition:0.3s ease;
     font-weight: bold;
 }
 
@@ -72,7 +74,7 @@ section {
 
 footer {
     background-color: #f7c8d0;
-    color: #ac496a;
+    color: #66414d;
     padding: 20px 0;
     text-align: center;
 }
@@ -94,7 +96,7 @@ footer {
 }
 
 .icon-bg, .info-bg {
-    background-color: #df618d;
+    background-color: #ee91b2;
     border-radius: 8px;
     padding: 10px;
     display: inline-block;
@@ -159,3 +161,12 @@ body {
     display: none;
     margin-top: 10px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+}
+
